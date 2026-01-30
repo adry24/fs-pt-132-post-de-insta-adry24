@@ -1,0 +1,25 @@
+body {
+  background: red;
+}
+
+.post {
+  width: 400px;
+  border: 1px solid #dbdbdb;
+  margin: 20px auto;
+  background: white;
+}
+
+.post-header {
+  padding: 10px;
+  border-bottom: 1px solid #dbdbdb;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nombre {
+  display: flex;
+}
+.letras {
+  justify-content: center;
+}
