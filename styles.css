@@ -1,5 +1,5 @@
 body {
-  background: red;
+  background: rgb(56, 122, 56);
 }
 
 .post {
@@ -14,12 +14,37 @@ body {
   border-bottom: 1px solid #dbdbdb;
   font-weight: bold;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
 }
 
-.nombre {
+.post-header .nombre {
+  flex-direction: column;
   display: flex;
+  margin-left: 10px;
 }
-.letras {
-  justify-content: center;
+
+.nombre p {
+  margin: 0;
+}
+
+.puntos {
+  margin-left: auto;
+}
+.fa-html5 {
+  font-size: 40px;
+}
+
+.post-img img {
+  width: 100%;
+  display: block;
+}
+
+.iconos {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.texto {
+  padding: 0 10px 10px 10px;
 }
